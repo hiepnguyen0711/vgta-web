@@ -1,0 +1,113 @@
+/* CSS Document */
+
+@font-face{
+	src:url(../fonts/BungeeShade-Regular.ttf);
+	font-family:BungeeShade;
+}
+
+body{
+	background-image:url(../images/lasvegas.jpg);
+	width:100%;
+	height:100vh;
+	background-size:cover;
+	background-position:center;
+	background-repeat:no-repeat;
+	position:relative;
+}
+h1{
+	color:#ffff00;
+	text-shadow:0px 0px 4px #333;
+	font-weight:bold;
+	font-family:BungeeShade;
+	-webkit-animation:doimau 2s linear infinite;
+	        animation:doimau 2s linear infinite;
+}
+@-webkit-keyframes doimau{
+	0%,30%{
+		color:#ffff00;
+	}
+	80%{
+		color:#ff0000;
+	}
+	100%{
+		color:#ffff00;
+	}
+}
+@keyframes doimau{
+	0%,30%{
+		color:#ffff00;
+	}
+	80%{
+		color:#ff0000;
+	}
+	100%{
+		color:#ffff00;
+	}
+}
+table{
+	clear:both;
+	position:absolute;
+	width:60%;
+	margin:200px 0;
+	left:19%;
+	right:20%;
+	text-align:center;
+	padding:10px;
+	background-color:rgba(255,255,255,0.9);
+	border-radius:10px;
+	-webkit-box-shadow:0px 0px 12px 2px #000;
+	        box-shadow:0px 0px 12px 2px #000;
+}
+[placeholder]{
+	padding-left:10px;
+}
+input[type=text], input[type=number], input[type=email], input[type=password]{
+	width:60%;
+	height:50px;
+	margin-bottom:15px;
+	border:none;
+	-webkit-box-shadow:0px 0px 0px 1px #ccc;
+	        box-shadow:0px 0px 0px 1px #ccc;
+	text-shadow:3px 2px 9px #000;
+}
+
+input:focus{
+	background-color:#FF9;
+}
+a{
+	color:#ff0000;
+
+}
+
+a:hover{
+	text-decoration:none;
+	font-weight:bold;
+	color:#ff0000;
+}
+
+
+
+#info {
+	background:#333;
+	opacity:0.8;
+	position: absolute;
+	top:5px;
+	right:5px;
+	width:280px;
+	color:#fff;
+	border-radius: 5px;
+	z-index:10
+	
+}
+
+#info p {
+   padding:0 10px;
+}
+
+#info a{ color:#f2ea0a; }
+
+canvas {
+	width:100%;
+	cursor: crosshair;
+	position:absolute;
+}

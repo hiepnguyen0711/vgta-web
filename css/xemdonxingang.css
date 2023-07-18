@@ -1,0 +1,11 @@
+/* CSS Document */
+.donxingang table thead tr{
+	background:#212121;
+	color:#fff;
+	text-align:center;
+}
+.donxingang table tbody tr{
+	border:1px solid #212121;
+	margin-top:15px;
+	text-align:center;
+}

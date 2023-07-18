@@ -1,0 +1,230 @@
+/* CSS Document */
+@font-face {
+  font-family: lol;
+  src: url(../fonts/Beaufort-Bold.ttf); }
+body{
+	width:100%;
+	min-height:600px !important;
+	/*background-image:url(../images/nenthongtinnhanvat.png);*/
+	background-size:cover;
+	background-repeat:no-repeat;
+	font-family:lol !important;
+}
+
+.khungthongtin{
+	margin-top:10px;
+	width:100%;
+	min-height:600px !important;
+	/*background-color:#eaeaea;*/
+	background-size:cover;
+	border-radius:5px;
+	position:relative;
+	clear:both;
+}
+
+#hinhnhanvat{
+	width:90%;
+	height:auto;
+}
+h1{
+	text-align:center;
+	padding-top:5px;
+	font-weight:bold;
+	text-shadow:0px 0px 5px #000;
+}
+p{
+	text-align:center;
+	font-size:22px;
+	line-height:60px;
+}
+
+table{
+	margin:10px auto;
+	
+}
+
+[placeholder]{
+	padding-left:10px;
+}
+input[type=text], input[type=number], input[type=email], input[type=password]{
+	width:60%;
+	height:40px;
+	margin-bottom:15px;
+	border:none;
+	-webkit-box-shadow:0px 0px 0px 1px #ccc;
+	        box-shadow:0px 0px 0px 1px #ccc;
+	text-shadow:3px 2px 9px #000;
+	margin-top:5px;
+}
+
+input:focus{
+	background-color:#FF9;
+}
+a{
+	color:#ffff00;
+}
+
+#nutdoimatkhau{
+	text-align:center;
+}
+h4{
+	text-align:right;
+	line-height:40px;
+	margin-right:10px;
+}
+.khungxe{
+	
+	margin-top:30px;
+}
+.nenxe{
+	clear:both;
+	background-image:url(../images/xe/vehicleBg.png);
+	width:100%;
+	height:auto;
+	background-size:cover;
+	background-repeat:no-repeat;
+	border-radius:10px;
+	-webkit-box-shadow:0px 0px 10px 1px #000;
+	        box-shadow:0px 0px 10px 1px #000;
+
+}
+#hinhxe{
+	width:100%;
+	height:210px;
+}
+#hinhtoys{
+	width:60%;
+	height:auto;
+}
+#tablekhoxe{
+	background-color:#0f0f0f;
+	border-radius:5px;
+	-webkit-box-shadow:0px 0px 10px 1px #000;
+	        box-shadow:0px 0px 10px 1px #000;
+}
+#leftkhoxe{
+	text-align:center;
+	background-image:url(../images/xe/bgButton.png);
+	color:#eaeaea;
+	font-size:16px;
+	height:30px;
+	border-bottom:1px solid #0e0e0e;	
+}
+#leftkhoxe:hover, .nenxe:hover{
+	cursor:pointer;
+}
+#nutbanxe{
+	text-align:center;
+	height:40px;
+	line-height:40px;
+}
+#rightkhoxe{
+	text-align:center;
+	color:#fff;
+	font-size:16px;
+}
+.khoxe{
+	position:absolute;
+	width:100%;
+	clear:both;
+}
+#tablenapthe{
+	position:absolute;
+	margin:20px 16%;
+}
+label, input[type=radio]{
+	cursor:pointer;
+}
+#leftnapthe{
+	text-align:right;
+	font-size:16px;
+}
+
+#rightnapthe{
+	padding-left:10px;
+}
+#nutnapthe{
+	text-align:center;
+}
+
+#hinhanhban{
+	width:70%;
+	height:auto;
+}
+.hangdangban a{
+	color:#000;
+	font-size:16px;
+	text-align:center;
+	line-height:100px;
+
+}
+.hangdangban a:hover{
+	text-decoration:none;
+	color:#ff0000;
+	font-weight:bold;
+	text-shadow:1px 2px 3px #000000;
+}
+th{
+	text-align:center;
+}
+.hangdangban p{
+	font-size:16px;
+	line-height:100px;
+}
+
+.hangdangban{
+	top:0;
+	left:0;
+	z-index:2;
+	position:absolute;
+	min-height:600px;
+}
+.giadinh button{
+	width:80px;
+}
+.giadinh tbody{
+	text-align:center;
+}
+#hinhcuahang{
+	width:100%;
+	height:auto;
+	border-radius:5px;
+	-webkit-box-shadow:1px 1px 5px 1px #000;
+	        box-shadow:1px 1px 5px 1px #000;
+}
+.cuahang{
+	text-align:center;
+}
+.cuahang h4{
+	text-align:center;
+	font-size:18px;
+}
+.cuahang h5{
+	font-size:16px;
+}
+.khungtimkiem{
+	text-align:right;
+}
+.khungtimkiem input{
+	width:200px;
+}
+.ketquatimkiem{
+	text-align:center;
+}
+
+#hinhdangban{
+	width:40%;
+	height:auto;
+}
+.ketquahangdangban p{
+	text-align:center;
+}
+
+.ketquahangdangban a{
+	text-align:center !important;
+	color:#000;
+}
+.ketquahangdangban a:hover{
+	text-decoration:none;
+	color:#F00;
+}

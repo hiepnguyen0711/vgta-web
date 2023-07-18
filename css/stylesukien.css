@@ -1,0 +1,409 @@
+/* CSS Document */
+@font-face {
+  font-family: vgta;
+  src: url(../fonts/AlfaSlabOne-Regular.ttf);
+}
+@font-face {
+  font-family: lol;
+  src: url(../fonts/Beaufort-Bold.ttf);
+}
+*{
+	padding:0;
+	margin:0;
+}
+body{
+	background-image:url(../images2/1269936.png);
+	width:100%;
+	height:1000px;
+	background-size:cover;
+	background-repeat:no-repeat;
+	position:relative;
+	overflow:hidden;
+}
+
+.content{
+	z-index:1000;
+	width:100%;
+	height:1000px;;
+
+}
+.loadtren{
+	position:absolute;
+	z-index:1001;
+	left:0;
+	top:0;
+	animation:trenvo 1.5s ease;
+}
+.loadduoi{
+	position:absolute;
+	z-index:1001;
+	right:0;
+	bottom:0;
+	animation:duoivo 1.5s ease;
+}
+
+@keyframes trenvo{
+	0%{
+		left:-25%;
+		opacity:0;
+	}
+	100%{
+		left:0;
+		opacity:1;
+	}
+}
+@keyframes duoivo{
+	0%{
+		right:-25%;
+		opacity:0;
+	}
+	100%{
+		right:0;
+		opacity:1;
+	}
+}
+.header{
+	width:80%;
+	top:15%;
+	left:50%;
+	position:absolute;
+	transform:translate(-50%,0%);
+	z-index:1002;
+}
+.content .logo{
+	left:50%;
+	top:5%;
+	position:absolute;
+	transform:translateX(-50%);
+	z-index:1002;
+	animation:xuathien 3s ease-in;
+}
+@keyframes xuathien{
+	0%{
+		opacity:0;
+	}
+	100%{
+		opacity:1;
+	}
+}
+.content .trangchu, .content .cacsukien, .content .youtube{
+
+	float:left;
+	display:inline-block;
+	position:relative;
+}
+.content .trangchu img, .content .cacsukien img, .content .youtube img{
+	width:100%;
+	height:70px;
+	position:relative;
+}
+.content .trangchuvo
+{
+	position:relative;
+	animation:trangchuvo 1.5s ease ;
+	-webkit-animation-iteration-count: 1;
+
+}
+
+.content .youtubevo
+{
+	position:relative;
+	animation:youtubevo 1.5s ease;
+	-webkit-animation-iteration-count: 1;
+}
+.content .cacsukien{
+	animation:cacsukienhien 2s ease-in-out;
+}
+@keyframes cacsukienhien{
+	0%{
+		opacity:0;
+	}
+	100%{
+		opacity:1;
+		
+	}
+}
+@keyframes trangchuvo{
+	0%{
+		left:-50%;
+	}
+	100%{
+		left:0;
+	}
+}
+@keyframes youtubevo{
+	0%{
+		right:-50%;
+	}
+	100%{
+		right:0;
+	}
+}
+.content .trangchu, .content .youtube{
+	width:25%;
+}
+.content .cacsukien{
+	width:50%;
+}
+.txttrangchu{
+	position:absolute;
+	left:50%;
+	top:50%;
+	transform:translate(-50%,-50%);
+	color:#a4e002;
+	font-family:vgta;
+	font-size:18px;
+}
+.txtcacsukien{
+	position:absolute;
+	left:50%;
+	top:50%;
+	transform:translate(-50%,-50%);
+	color:#000000;
+	font-family:vgta;
+	font-size:18px;
+}
+.content .trangchu:hover{
+	
+	animation:lonnho 1s ease infinite;
+}
+.content .youtube:hover{
+	
+	animation:lonnho 1s ease infinite;
+}
+@keyframes lonnho{
+	0%{
+		transform:scale(1);
+	}
+	50%{
+		transform:scale(1.15);
+	}
+	100%{
+		transform:scale(1);
+	}
+}
+.danhmucsukien{
+	position:relative;
+	width:75%;
+	top:28%;
+	left:50%;
+	transform:translateX(-50%);
+	z-index:1004;
+}
+
+.sukientrungthu{
+	
+	width:25%;
+	height:486px;
+	float:left;
+	display:inline-block;
+	text-align:center;
+	position:relative;
+	cursor:pointer;
+	
+}
+
+.sukientrungthu .hinh{
+	max-width:286px;
+	position:absolute;
+	z-index:1002;
+	left:0;
+	top:0;
+	box-shadow:1px 0px 6px 2px #000;
+	
+}
+.sukientrungthu .nen{
+	position:absolute;
+	bottom:-120px;
+	left:0;
+	z-index:1001;
+	transform:scale(1.2);
+	width:286px;
+	height:486px;
+}
+
+
+.sukien1{
+	animation:nhayxuong 0.8s ease-in-out alternate;
+}
+.sukien2{
+	
+	animation:nhayxuong 1s ease-in-out alternate;
+	animation-duration: 1.5s;
+}
+.sukien3{
+	
+	animation:nhayxuong 1s ease-in-out alternate;
+	animation-duration: 2.5s;
+}
+.sukien4{
+	
+	animation:nhayxuong 1s ease-in-out alternate;
+	animation-duration: 3.5s;
+}
+.nhaynhay{
+	position:relative;
+	animation:nhaynhay 1s linear infinite;
+	animation-delay:3.7s;
+}
+.tonho{
+	
+	animation:tonho 3s linear infinite;
+	animation-delay:3.7s;
+}
+.luclac:hover{
+	
+	animation:luclac 1s linear infinite ;
+}
+@keyframes nhayxuong{
+	from{
+		opacity:0;
+		top:-1000px;
+	}
+	to{
+		top:0;
+		opacity:1;
+	}
+}
+
+@keyframes nhayxuong2{
+	from{
+		opacity:0;
+		top:-1000px;
+	}
+	to{
+		top:0;
+		opacity:1;
+		animation:nhaynhay 1s linear infinite;
+	}
+}
+
+@keyframes nhaynhay{
+	0%{
+		top:0px;
+	}
+	20%{
+		top:-10px;
+	}
+	60%{
+		top:0px;
+	}
+	90%{
+		top:10px;
+	}
+	100%{
+		top:0px;
+	}
+	
+}
+
+@keyframes luclac{
+	0{
+		transform:rotate(0deg);
+	}
+	20%{
+		transform:rotate(-5deg);
+	}
+	40%{
+		transform:rotate(0deg);
+	}
+	60%{
+		transform:rotate(5deg);
+	}
+	75%{
+		transform:rotate(0deg);
+	}
+	90%{
+		transform:rotate(-5deg);
+	}
+	100%{
+		transform:rotate(0deg);
+	}
+}
+
+@keyframes tonho{
+	0%{
+		transform:scale(1.03);
+	}
+	30%{
+		transform:scale(1);
+	}
+	60%{
+		transform:scale(1.03);
+	}
+	95%{
+		transform:scale(1);
+	}
+	100%{
+		transform:scale(1.03);
+	}
+}
+
+.footer{
+	width:100%;
+	height:150px;
+	background:#000;
+	bottom:0;
+	left:0;
+	position:absolute;
+	border-top:1px solid #527506;
+	z-index:2000;
+}
+
+.footer .khunglogo{
+	width:30%;
+	text-align:right;
+	float:left;
+	display:inline-block;
+	padding-top:5px;
+	box-sizing:border-box;
+}
+.footer .khungchu{
+	width:70%;
+	text-align:left;
+	float:left;
+	display:inline-block;
+	color:#CCC;
+	font-family:lol;
+	font-size:12px;
+	padding-top:5px;
+	box-sizing:border-box;
+}
+.footer img{
+	height:75px;
+	width:75px;
+}
+@media screen and (max-width:1600px)
+{
+	.sukientrungthu .hinh, .sukientrungthu .nen{
+		width:100%;
+		height:auto;
+	}
+}
+@media screen and (max-width:1400px)
+{
+	.sukientrungthu .hinh, .sukientrungthu .nen{
+		width:90%;
+		height:auto;
+	}
+	.trangchuvo .txttrangchu, .txtcacsukien, .txttrangchu{
+		font-size:16px;
+	}
+	.txtcacsukien{
+		
+		text-align:center;
+	}
+	.sukientrungthu .nen{
+		bottom:85px;
+	}
+}
+@media screen and (max-width:970px)
+{
+	.sukientrungthu .nen{
+		bottom:300px;
+	}
+	.txtcacsukien{
+		font-size:12px;
+		text-align:center;
+	}
+}

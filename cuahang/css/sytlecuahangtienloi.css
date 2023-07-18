@@ -1,0 +1,331 @@
+/* CSS Document */
+@font-face {
+  font-family: lol;
+  src: url(../../fonts/Beaufort-Bold.ttf); 
+}
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background-image:url(../../images2/bg.png);
+	background-size:cover;
+}
+.xoaymanhinh{
+	position:relative;
+	width:100vh;
+	height:100vh;
+	z-index:3000;
+	background-image:url(../../images2/rotate-phone.png);
+	background-size:cover;
+	display:none;
+}
+.header{
+	width:100%;
+	height:85px;
+	background:rgba(0,0,0,0.7);
+	border-bottom:1px solid #1a01b6;
+	position:fixed;
+	z-index:2000;
+}
+.container{
+	width:80%;
+	margin:auto;
+}
+.header .container .logo{
+	width:80%;
+	height:85px;
+	display:inline-block;
+	float:left;
+}
+.dangnhap a{
+	text-decoration:none;
+}
+.header .logo img{
+	width:85px;
+	height:85px;
+}
+.header .container .dangnhap{
+	width:20%;
+	height:85px;
+	display:inline-block;
+	background:linear-gradient(-90deg,#0000a2,#00003c);
+	transform:skewX(-20deg);
+	text-align:center;
+	font-size:1.5vw;
+	line-height:4vw;
+	cursor:pointer;
+}
+.header .container .dangnhap .textdangnhap{
+	color:#fff;
+	display:block;
+	transform:skewX(20deg);
+	font-weight:bold;
+	font-family:lol;
+	transition:all .5s ease;
+}
+
+.header .container .dangnhap:hover .textdangnhap{
+	color:rgba(255,0,0,1);
+	transition:all .5s ease;
+}
+.content{
+	position:relative;
+	min-height:1150px;
+}
+.cuahang{
+	position:absolute;
+	z-index:1001;
+	top:100px;
+	width:70%;
+	height:500px;
+}
+.vatpham{
+	position:absolute;
+	z-index:1002;
+	top:100px;
+	width:100%;
+	height:1000px;
+}
+.containervp2{
+	width:70%;
+	position:absolute;
+	right:0;
+}
+.containervp3{
+	width:70%;
+	position:absolute;
+	top:300px;
+	right:0;
+}
+.containervp4{
+	width:100%;
+	position:absolute;
+	top:600px;
+	right:0;
+}
+.cuahang2{
+	position:relative;
+}
+.cuahang2 img{
+	position:absolute;
+	z-index:1002;
+	top:30px;
+	left:40px;
+	width:50%;
+	height:auto;
+	animation:hienra 5s ease;
+}
+@keyframes hienra{
+	0%{
+		left:0;
+		opacity:0;
+	}
+	100%{
+		left:40px;
+		opacity:1;
+	}
+}
+.vatpham1, .vatpham2, .vatpham3, .vatpham4, .vatpham5, .vatpham6, .vatpham7, .vatpham8, .vatpham9,.vatpham10{
+	position:relative;
+	float:right;
+	display:inline-block;
+	width:261px;
+	height:300px;
+	
+}
+.vatpham1{
+	animation:xoaysanpham 1.1s linear;
+}
+.vatpham2{
+	animation:xoaysanpham 1.3s linear;
+}
+.vatpham3{
+	animation:xoaysanpham 1.5s linear;
+}
+.vatpham4{
+	animation:xoaysanpham 1.7s linear;
+}
+.vatpham5{
+	animation:xoaysanpham 1.9s linear;
+}
+.vatpham6{
+	animation:xoaysanpham 2.1s linear;
+}
+.vatpham7{
+	animation:xoaysanpham 2.3s linear;
+}
+.vatpham8{
+	animation:xoaysanpham 2.5s linear;
+}
+.vatpham9{
+	animation:xoaysanpham 2.7s linear;
+}
+.vatpham10{
+	animation:xoaysanpham 2.9s linear;
+}
+
+@keyframes xoaysanpham{
+	0%{
+		-webkit-transform: rotateY(0deg) ;
+		opacity:0;
+	}
+	100%{
+		opacity:1;
+		-webkit-transform: rotateY(360deg) ;
+	}
+}
+.sanpham1{
+	position:absolute;
+	top:0;
+	right:0;
+	background-image:url(../../images2/box.png);
+	width:261px;
+	height:300px;
+}
+.sanpham1:hover img{
+	filter:contrast(1.4) brightness(1.5);
+}
+.sanpham1 img{
+	width:158px;
+	height:158px;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	cursor:pointer;
+}
+
+.sanpham1 .giamgia{
+	position:absolute;
+	right:14%;
+	top:13%;
+	color:#fe1232;
+	font-family:lol;
+}
+.sanpham1 .tensanpham{
+	position:absolute;
+	left:17%;
+	bottom:5%;
+	color:#fff;
+	font-family:lol;
+}
+.sanpham1 .coin{
+	position:absolute;
+	right:16%;
+	bottom:5%;
+	color:#fff;
+	font-family:lol;
+	text-align:center;
+	cursor:pointer;
+}
+.sanpham1 .coin .mua
+{
+	color:rgba(175,239,2,1);
+	transition:all .5s ease;
+}
+.sanpham1 .coin:hover .mua
+{
+	color:rgba(255,0,51,1);
+	transition:all .5s ease;
+}
+.footer{
+	position:relative;
+	width:100%;
+	height:170px;
+	border-top:1px solid #b23174;
+	background:#000;
+}
+.footer .container .logo
+{
+	width:20%;
+	height:170px;
+	display:inline-block;
+	text-align:right;
+	float:left;
+}
+.footer .container .textfooter{
+	width:80%;
+	height:170px;
+	display:inline-block;
+	text-align:left;
+	color:#999;
+	font-family:lol;
+	padding-top:20px;
+	padding-left:20px;
+	box-sizing:border-box;
+}
+.footer .container .logo img{
+	width:85px;
+	height:85px;
+	transform:translateY(45px);
+}
+
+
+@media screen and (max-width:1631px)
+{
+	.container{
+		width:97%;
+	}
+}
+@media screen and (max-width:1345px)
+{
+	.container{
+		width:100%;
+	}
+	.vatpham1, .vatpham2, .vatpham3, .vatpham4, .vatpham5, .vatpham6, .vatpham7, .vatpham8, .vatpham9, .vatpham10{
+		width:230px;
+	}
+	.header .container .dangnhap{
+		line-height:6vw;
+	}
+}
+@media screen and (max-width:1149px)
+{
+	
+	.vatpham1, .vatpham2, .vatpham3, .vatpham4, .vatpham5, .vatpham6, .vatpham7, .vatpham8, .vatpham9, .vatpham10{
+		width:230px;
+	}
+	.content{
+		min-height:1340px !important;
+	}
+	.header .container .dangnhap{
+		line-height:7vw;
+	}
+}
+@media screen and (max-width:985px)
+{
+	.containervp3
+	{
+		width:100%;
+	}
+}
+@media screen and (max-width:698px)
+{
+	.containervp3
+	{
+		width:100% !important;
+	}
+	.vatpham1, .vatpham2, .vatpham3, .vatpham4, .vatpham5, .vatpham6, .vatpham7, .vatpham8, .vatpham9, .vatpham10{
+		width:226px;
+	}
+	.header .container .dangnhap{
+		line-height:11vw;
+	}
+}
+@media screen and (min-width:495px)
+{
+	.containervp2{
+		width:100%;
+	}
+}
+@media screen and (max-width:494px)
+{
+	.xoaymanhinh
+	{
+		display:block;
+	}
+	.header, .content, .footer{
+		display:none;
+	}
+}

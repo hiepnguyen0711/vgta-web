@@ -1,0 +1,9 @@
+.form-bk {margin:30px auto 20px !important;
+			border : 1px solid #e5e5e5;
+			padding : 19px 29px 39px;
+			width : 450px;
+			min-height:820px;
+			}
+.form-bk input,select {width : 260px !important;}
+.form-group {width : 560px;}
+.col-lg-2 {width : 93px;}

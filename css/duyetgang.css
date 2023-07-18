@@ -1,0 +1,61 @@
+/* CSS Document */
+
+.donxingang table button{
+	border:none;
+	color:#fff;
+	margin-left:2px;
+	padding:10px;
+}
+.donxingang table #btnDuyet{
+	background:#25CD1D;
+	
+}
+.donxingang table #btnTuChoi{
+	background:#ff0000;
+}
+.style4
+{
+	display:inline-block;
+	background: url(https://vnxf.vn/attachments/753455ae56bd-gif.2889/) repeat scroll 0 0%, url(https://vnxf.vn/attachments/bg4_zps012f7fcf-gif.2890/) repeat scroll 0 0%;
+	color: #CC9900;
+	font-weight: bold;
+	text-shadow: 0 0 5px #FFFFFF, 0 0 5px #EEEEEE, 0 0 5px #EEEEEE, 1px 1px 0 #EEEEEE;
+}
+.style0
+{
+	display:inline-block;
+	background: url(https://vnxf.vn/attachments/753455ae56bd-gif.2889/) repeat scroll 0 0%, url(https://vnxf.vn/attachments/bg4_zps012f7fcf-gif.2890/) repeat scroll 0 0%, url(https://vnxf.vn/attachments/bg13_zps2612a7c5-gif.2893/) repeat scroll 0 0;
+	color: #EEEEEE;
+	font-weight: bold;
+	text-shadow: 0 0 5px #FFFFFF, 0 0 5px #0000FF, 0 0 5px #00FFFF, 1px 1px 0 #0000FF;
+}
+.style1
+{
+	display:inline-block;
+	background: url(https://vnxf.vn/attachments/753455ae56bd-gif.2889/) repeat scroll 0 0%, url(https://vnxf.vn/attachments/bg4_zps012f7fcf-gif.2890/) repeat scroll 0 0%, url(https://vnxf.vn/attachments/bg13_zps2612a7c5-gif.2893/) repeat scroll 0 0;
+	color: #FFFF00;
+	font-weight: bold;
+	text-shadow: 0 0 5px #FFFFFF, 0 0 5px #990000, 0 0 5px #990000, 1px 1px 0 #990000;
+}
+.style2
+{
+	display:inline-block;
+	background: url(https://vnxf.vn/attachments/753455ae56bd-gif.2889/) repeat scroll 0 0%, url(https://vnxf.vn/attachments/bg4_zps012f7fcf-gif.2890/) repeat scroll 0 0%, url(https://vnxf.vn/attachments/bg13_zps2612a7c5-gif.2893/) repeat scroll 0 0;
+	color: #00FFFF;
+	font-weight: bold;
+	text-shadow: 0 0 5px #FFFFFF, 0 0 5px #0000FF, 0 0 5px #00FFFF, 1px 1px 0 #0000FF;
+}
+.style3{
+	display:inline-block;
+	background: url(https://vnxf.vn/attachments/753455ae56bd-gif.2889/) repeat scroll 0 0%, url(https://vnxf.vn/attachments/bg4_zps012f7fcf-gif.2890/) repeat scroll 0 0%, url(https://vnxf.vn/attachments/bg13_zps2612a7c5-gif.2893/) repeat scroll 0 0;
+	color: #C6C;
+	font-weight: bold;
+	text-shadow: 0 0 5px #FFFFFF, 0 0 5px #0000FF, 0 0 5px #00FFFF, 1px 1px 0 #0000FF;
+}
+.style5{
+	display:inline-block;
+	background: url(https://vnxf.vn/attachments/753455ae56bd-gif.2889/) repeat scroll 0 0%, url(https://vnxf.vn/attachments/bg4_zps012f7fcf-gif.2890/) repeat scroll 0 0%, url(https://vnxf.vn/attachments/bg13_zps2612a7c5-gif.2893/) repeat scroll 0 0;
+	color: #0C0;
+	font-weight: bold;
+	text-shadow: 0 0 5px #FFFFFF, 0 0 5px #990000, 0 0 5px #990000, 1px 1px 0 #990000;
+}

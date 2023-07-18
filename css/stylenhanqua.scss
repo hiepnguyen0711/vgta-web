@@ -1,0 +1,177 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+@font-face{
+	font-family:lol;
+	src:url(../fonts/Beaufort-Bold.ttf);
+}
+body
+{
+	background-image: url('../images/bgnhanqua.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100vh;
+	.header{
+		width: 100%;
+		height: 50px;
+		background: #121212;
+		padding: 10px 0;
+		border-bottom: 3px solid #262626;
+		.container
+		{
+			width: 80%;
+			margin: auto;
+			display: table;;
+			img
+			{
+				float:left;
+				width: 50px;
+				height: auto;
+			}
+			ul
+			{
+				padding-top:12px;
+				box-sizing:border-box;
+				list-style: none;
+				text-align: center;
+				li
+				{
+					font-family: lol;
+					display: inline-block;;
+					a
+					{
+						text-decoration: none;
+						font-size: 18px;
+						color:#9e865a;
+						font-family: lol;
+						padding: 0 10px;
+						&:hover
+						{
+							color: #fff;	
+						}
+					}
+				}
+			}
+		}
+		
+	}
+	.content
+	{
+		padding-top: 100px;
+		box-sizing:border-box;
+		.container
+		{
+			width: 90%;
+			margin: auto;
+			display: table;
+			.hopqua
+			{
+				width: 19%;
+				min-height: 200px;
+				margin-right: 1%;
+				background: #16171b;
+				float: left;
+				padding: 0 1%;
+				box-sizing:border-box;
+				color:#937341;
+				border:1px solid #c6a75e;
+				border-radius:2px;
+				padding-bottom: 10px;
+				position: relative;
+				overflow: hidden;
+				img
+				{
+					width: 100%;
+					height: auto;
+				}
+				.nenhopqua
+				{
+					position: absolute;
+					bottom: 0;
+					left:0;
+					width: 100%;
+					height: 30px;
+					background: #0f0f0f;
+					text-align: center;
+					font-family: lol;
+					padding-top: 5px;
+					cursor:pointer;
+					transition:all .3s ease;
+					#tickan
+					{
+						margin-top: 5px;
+						button
+						{
+							margin-top: 10px;
+							padding: 5px 10px;
+							border:none;
+							background: #917140;
+							color: #fff;
+							border-radius:2px;
+						}
+						color: rgba(255,255,255,0);
+						transition:all .3s ease;
+						visibility: hidden;
+					}
+					&:hover
+					{
+						transition:all .3s ease;
+						height: 120px;
+						#tickan
+						{
+							color: rgba(255,255,255,1);
+							transition:all .3s ease;
+							visibility: visible;
+						}
+					}
+				}
+				.nenhopquadb
+				{
+					position: absolute;
+					bottom: 0;
+					left:0;
+					width: 100%;
+					height: 30px;
+					background: #0f0f0f;
+					text-align: center;
+					font-family: lol;
+					padding-top: 5px;
+					cursor:pointer;
+					transition:all .3s ease;
+					#tickan
+					{
+						margin-top: 5px;
+						button
+						{
+							margin-top: 10px;
+							padding: 5px 10px;
+							border:none;
+							background: #917140;
+							color: #fff;
+							border-radius:2px;
+						}
+						color: rgba(255,255,255,0);
+						transition:all .3s ease;
+						visibility: hidden;
+					}
+					&:hover
+					{
+						transition:all .3s ease;
+						height: 160px;
+						#tickan
+						{
+							color: rgba(255,255,255,1);
+							transition:all .3s ease;
+							visibility: visible;
+						}
+					}
+				}
+				
+				
+			}
+		}
+	}
+}

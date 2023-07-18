@@ -1,0 +1,64 @@
+/* CSS Document */
+
+body{
+	background-image:url(../images/wallpaper1.jpg);
+	font-family:lol;
+}
+.content .container form{
+	width:90%;
+	margin:auto;
+	background:rgba(22,23,27,0.9);
+	min-height:500px;
+	padding-top:15px;
+	border:1px solid #c6a75e;
+}
+.content .container table{
+	margin:auto;
+}
+.content .container table input[type=text]{
+	width:50%;
+	height:30px;
+	padding:1px 3px;
+	border-radius:2px;
+}
+.content .container table textarea{
+	padding:1px 3px;
+	border-radius:2px;
+	width:80%;
+}
+.tieude{
+	color:#c6a75e;
+	font-size:24px;
+}
+.content .container table input[type=file]{
+	padding:5px;
+	box-sizing:border-box;
+	background:#E8EC3C;
+	margin-bottom:30px;
+}
+.content .container table button{
+	width:100px;
+	height:35px;
+	margin:auto;
+	text-align:center;
+	border-radius:5px;
+	box-shadow:1px 1px 8px #CCCCCC;
+	border:none;
+	cursor:pointer;
+}
+.content .container table #btnDang{
+	background:rgba(89,249,66,1);
+	transition:all .3s ease;
+}
+.content .container table #btnDang:hover{
+	background:rgba(255,153,0,1);
+	transition:all .3s ease;
+}
+.content .container table #btnHuy{
+	background:rgba(239,5,5,1);
+	transition:all .3s ease;
+}
+.content .container table #btnHuy:hover{
+	background:rgba(255,153,0,1);
+	transition:all .3s ease;
+}

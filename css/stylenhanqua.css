@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+@font-face {
+  font-family: lol;
+  src: url(../fonts/Beaufort-Bold.ttf); }
+
+body {
+  background-image: url("../images/bgnhanqua.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh; }
+  body .header {
+    width: 100%;
+    height: 50px;
+    background: #121212;
+    padding: 10px 0;
+    border-bottom: 3px solid #262626; }
+    body .header .container {
+      width: 80%;
+      margin: auto;
+      display: table; }
+      body .header .container img {
+        float: left;
+        width: 50px;
+        height: auto; }
+      body .header .container ul {
+        padding-top: 12px;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        list-style: none;
+        text-align: center; }
+        body .header .container ul li {
+          font-family: lol;
+          display: inline-block; }
+          body .header .container ul li a {
+            text-decoration: none;
+            font-size: 18px;
+            color: #9e865a;
+            font-family: lol;
+            padding: 0 10px; }
+            body .header .container ul li a:hover {
+              color: #fff; }
+  body .content {
+    padding-top: 100px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; }
+    body .content .container {
+      width: 90%;
+      margin: auto;
+      display: table; }
+      body .content .container .hopqua {
+        width: 19%;
+        min-height: 200px;
+        margin-right: 1%;
+        background: #16171b;
+        float: left;
+        padding: 0 1%;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        color: #937341;
+        border: 1px solid #c6a75e;
+        border-radius: 2px;
+        padding-bottom: 10px;
+        position: relative;
+        overflow: hidden; }
+        body .content .container .hopqua img {
+          width: 100%;
+          height: auto; }
+        body .content .container .hopqua .nenhopqua {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 100%;
+          height: 30px;
+          background: #0f0f0f;
+          text-align: center;
+          font-family: lol;
+          padding-top: 5px;
+          cursor: pointer;
+          -webkit-transition: all .3s ease;
+          -o-transition: all .3s ease;
+          transition: all .3s ease; }
+          body .content .container .hopqua .nenhopqua #tickan {
+            margin-top: 5px;
+            color: rgba(255, 255, 255, 0);
+            -webkit-transition: all .3s ease;
+            -o-transition: all .3s ease;
+            transition: all .3s ease;
+            visibility: hidden; }
+            body .content .container .hopqua .nenhopqua #tickan button {
+              margin-top: 10px;
+              padding: 5px 10px;
+              border: none;
+              background: #917140;
+              color: #fff;
+              border-radius: 2px; }
+          body .content .container .hopqua .nenhopqua:hover {
+            -webkit-transition: all .3s ease;
+            -o-transition: all .3s ease;
+            transition: all .3s ease;
+            height: 120px; }
+            body .content .container .hopqua .nenhopqua:hover #tickan {
+              color: white;
+              -webkit-transition: all .3s ease;
+              -o-transition: all .3s ease;
+              transition: all .3s ease;
+              visibility: visible; }
+        body .content .container .hopqua .nenhopquadb {
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 100%;
+          height: 30px;
+          background: #0f0f0f;
+          text-align: center;
+          font-family: lol;
+          padding-top: 5px;
+          cursor: pointer;
+          -webkit-transition: all .3s ease;
+          -o-transition: all .3s ease;
+          transition: all .3s ease; }
+          body .content .container .hopqua .nenhopquadb #tickan {
+            margin-top: 5px;
+            color: rgba(255, 255, 255, 0);
+            -webkit-transition: all .3s ease;
+            -o-transition: all .3s ease;
+            transition: all .3s ease;
+            visibility: hidden; }
+            body .content .container .hopqua .nenhopquadb #tickan button {
+              margin-top: 10px;
+              padding: 5px 10px;
+              border: none;
+              background: #917140;
+              color: #fff;
+              border-radius: 2px; }
+          body .content .container .hopqua .nenhopquadb:hover {
+            -webkit-transition: all .3s ease;
+            -o-transition: all .3s ease;
+            transition: all .3s ease;
+            height: 160px; }
+            body .content .container .hopqua .nenhopquadb:hover #tickan {
+              color: white;
+              -webkit-transition: all .3s ease;
+              -o-transition: all .3s ease;
+              transition: all .3s ease;
+              visibility: visible; }

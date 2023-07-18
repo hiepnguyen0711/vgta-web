@@ -1,0 +1,30 @@
+/* CSS Document */
+@font-face {
+  font-family: lol;
+  src: url(../fonts/Beaufort-Bold.ttf); }
+
+.gang table{
+	margin-top:10px;
+	text-align:center;
+	background:#fff;
+	color:#121212;
+	font-family:lol;
+}
+.gang table th{
+	text-align:center;
+	background:#121212;
+	color:#95865a;
+	padding:5px;
+}
+#abc{
+	cursor:pointer;
+	color:rgba(245,35,35,1);
+	transition:all .3s ease;
+}
+.gang table tr td #abc:hover{
+	color:rgba(146,239,105,1);
+	transition:all .3s ease;
+}
+.gang table tr td img{
+	padding:5px 0;
+}
